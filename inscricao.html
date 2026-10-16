@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="pt-PT">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscrição</title>
+    </head>
+    <body>
+        <nav>
+        <h1>Ligações</h1>
+        <ul>
+            <li><a href="index.html" data-i18n="Página Inicial">Página Inicial</a></li>
+            <li><a href="oficina.html" data-i18n="Oficina">Oficina</a></li>
+        </ul>
+        </nav>
+        <header>
+        <h1><strong>Inscrição</strong></h1>
+        </header>
+        <main>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="curso">Horários em que participará:</label>
+            <br></br>
+            <select id="curso" name="curso">
+                <option value="robotica">Segunda-feira, 17:00</option>
+                <option value="programacao">Quarta-feira, 17:00</option>
+                <option value="eletronica">Sexta-feira, 17:00</option>
+                <option value="todas">Todas as sessões</option>
+            </select><br><br>
+
+            <input type="submit" value="Inscrever-se">
+        </form>
+        </main>
+        <footer>
+            <h1>Informações</h1>
+            <p>A incrição é feita automaticamente após o envio do formulário.</p>
+            <p>Para mais informações, entre em contato com o organizador da oficina.</p>
+        </footer>
+    </body>
+    </html>
